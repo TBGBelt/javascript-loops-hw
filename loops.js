@@ -68,12 +68,15 @@ for ( i = 0; i < 16; i++) {
 // >> 9
 // ==========================================
 for (let i = 0; i < 10; i++) {
-    console.log(i);
-    if (i => 3 ) {
-        console.log("> " + i)
-    } else (i => 6)
-        console.log(">> " + i)
+    if (i < 3) {
+        console.log(i);
+    } if (i > 2 && i < 6) {
+        console.log("> " + i);
+    } if (i > 5) {
+        console.log(">> " + i);
     }
+}
+
 
 
 
